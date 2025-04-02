@@ -1,6 +1,6 @@
 #   😁 ​PORTFOLIO DEVELOPPER 🧑🏻‍💻​
 
-## LANGAGE UTILISER 
+## Langage Utilisé
 
  
   * HTML
