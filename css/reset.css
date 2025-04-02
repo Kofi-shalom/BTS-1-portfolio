@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Freckle+Face&family=Oswald:wght@200..700&display=swap');
+
+
+
+/* Reset CSS - Supprime les marges, paddings et styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+/* Supprime les styles par défaut des listes */
+ul, ol {
+    list-style: none;
+    padding: 0;
+}
+
+/* Supprime les styles par défaut des liens */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Réinitialise les titres */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+/* Assure une taille uniforme des images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
