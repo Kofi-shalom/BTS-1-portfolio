@@ -1,4 +1,4 @@
-#   PORTFOLIO DEVELOPPER
+#   😁 ​PORTFOLIO DEVELOPPER 🧑🏻‍💻​
 
 ## LANGAGE UTILISER 
 
@@ -7,4 +7,6 @@
   * CSS
   * JS
 
-###  Lien = "http://127.0.0.1:5500/index.html"
+###  Lien 👀​  = "http://127.0.0.1:5500/index.html"
+
+                              🙂‍↕️​🙂‍↔️​
