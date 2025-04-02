@@ -14,6 +14,6 @@
 
 
 
-###  Link du Portfolio 👀​  = "http://127.0.0.1:5500/index.html"
+###    [Publication du Portfolio] 👀​  (https://kofi-shalom.github.io/BTS-1-portfolio/)
 
                               🙂‍↕️​🙂‍↔️​
