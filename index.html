@@ -7,6 +7,7 @@
     <meta name="description" content="Création d'un portfolio">
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
@@ -27,31 +28,60 @@
 
         <nav>
             <ul>
-                <li><a href="accueil.html">Accueil</a></li>
-                <li><a href="Projets">Projets</a></li>
-                <li><a href="Apropos">A propos</a></li>
-                <li><a href="Contact">Contact</a></li>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="a-propos.html">A propos</a></li>
+                <li><a href="cv.html">Cv</a></li>
             </ul>
         </nav>
     </header>
 
 
     <main>
-        <section>
-            <h2>Description </h2>
-<br>
-            <p>Étudiant en Développement Web
+      
 
-                Passionné par la création de solutions numériques innovantes, je me spécialise dans le
-                développement web avec une maîtrise des technologies front-end et back-end. Curieux et
-                autodidacte, j'aime relever des défis techniques et concevoir des interfaces intuitives
-                et performantes. Mon objectif ? Allier esthétique, fonctionnalité et expérience utilisateur
-                pour des projets web impactants.
-            </p>
-
-
-
+         <section class="hero section">
+            <div class="hero-container container grid">
+                <div class="hero-content">
+                    <span class="hero-subtitle">Bonjour, je suis Shalom</span>
+                    <h1 class="hero-title">Étudiant en BTS SIO <br> <span>Option SLAM</span></h1>
+                    <p class="hero-description">
+                        Passionné par le développement d'applications et la résolution de problèmes techniques.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="projets.html" class="btn btn-primary">Voir mes projets</a>
+                        <a href="cv.html" class="btn btn-outline">Télécharger mon CV</a>
+                    </div>
+                </div>
+               
+                <div class="hero-decoration">
+                    <div class="shape-blob"></div>
+                </div>
+            </div>
         </section>
+
+          <section class="about section bg-light">
+            <div class="container grid about-grid">
+                <div class="about-img">
+                    <!-- Placeholder pour la photo de profil -->
+                    <div class="img-placeholder">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h2 class="section-title">À propos de moi</h2>
+                    <p class="about-text">
+                        Actuellement en première année de BTS SIO (Services Informatiques aux Organisations) avec une spécialisation en Solutions Logicielles et Applications Métiers (SLAM).
+                    </p>
+                    <p class="about-text">
+                        Mon parcours est guidé par l'envie d'apprendre les langages du web et de concevoir des outils numériques utiles au quotidien. J'aime relever des défis et approfondir mes connaissances techniques.
+                    </p>
+                    <a href="a-propos.html" class="btn btn-primary">En savoir plus</a>
+                </div>
+            </div>
+        </section>
+
+
 
         <div class="primary" role="group" aria-labelledby="collection">
 
@@ -70,7 +100,17 @@
 
     <footer>
         <p>
-            &copy; - Developper - <time datetime="2025-04-02">2025</time>
+
+                <footer class="footer">
+        <div class="container footer-content">
+            <p class="copyright">&copy; 2026 Shalom - Étudiant BTS SIO / SLAM . Tous droits réservés.</p>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/shalom-dogbevi-2a0837347/" class="social-link"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Kofi-shalom" class="social-link"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:shalomdogbevi01@gmail.com" class="social-link"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+
         </p>
     </footer>
     <script src="./src/app.js"></script>
