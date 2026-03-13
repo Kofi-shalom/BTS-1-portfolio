@@ -50,7 +50,7 @@
     color: var(--text-muted);
     font-size: 0.95rem;
     margin-bottom: 1.25rem;
-    height: 4.5rem; /* On fixe une hauteur pour l'alignement */
+    height: 4.5rem; 
     overflow: hidden;
 }
 
