@@ -1,3 +1,5 @@
+@import url('reset.css');
+
 stage-hero {
             background: linear-gradient(135deg, var(--primary-color), #134E4A);
             padding: 8rem 0 4rem;
