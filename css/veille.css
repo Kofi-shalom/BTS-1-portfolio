@@ -1,0 +1,248 @@
+veille-hero {
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            padding: 8rem 0 4rem;
+            text-align: center;
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .veille-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 10% 40%, rgba(98, 38, 240, 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(99, 102, 241, 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 50% 50%, rgba(59, 130, 246, 0.2) 0%, transparent 70%);
+        }
+        
+        .veille-hero .container {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .veille-hero h1 {
+            font-family: var(--title-font);
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #fff, #6366F1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .veille-hero p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+
+        }
+        
+        .gaming-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+        
+        .veille-intro {
+            background: var(--bg-light);
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            margin-bottom: 3rem;
+            color: #16213e;
+        }
+        
+        .veille-intro h2 {
+            font-family: var(--title-font);
+            color: var(--text-color);
+            margin-bottom: 1rem;
+        }
+        
+        .trend-card {
+            background: var(--white);
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+            color: #16213e;
+            transition: var(--transition);
+        }
+        
+        .trend-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+        
+        .trend-header {
+            padding: 1.5rem 2rem;
+            background: linear-gradient(135deg, var(--primary-color), #134E4A);
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .trend-header i {
+            font-size: 2rem;
+        }
+        
+        .trend-header h3 {
+            font-family: var(--title-font);
+            font-size: 1.3rem;
+        }
+        
+        .trend-content {
+            padding: 2rem;
+        }
+        
+        .trend-content p {
+            margin-bottom: 1rem;
+            line-height: 1.7;
+        }
+        
+        .trend-content ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .trend-content li {
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        
+        .trend-content li::before {
+            content: '\f0a9';
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+        }
+        
+        .tech-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+            margin-top: 1rem;
+        }
+        
+        .tech-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.4rem 0.8rem;
+            background: var(--secondary-color);
+            border-radius: 1rem;
+            font-size: 0.85rem;
+            color: var(--text-color);
+        }
+        
+        .tech-badge i {
+            color: var(--primary-color);
+        }
+        
+        .source-card {
+            background: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: var(--border-radius);
+            margin-bottom: 1rem;
+            border-left: 4px solid #6366F1;
+        }
+        
+        .source-card a {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+        
+        .source-card a:hover {
+            text-decoration: underline;
+        }
+        
+        .source-meta {
+            display: flex;
+            gap: 1rem;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 0.5rem;
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: linear-gradient(to bottom, var(--primary-color), #6366F1);
+            border-radius: 3px;
+        }
+        
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+            padding-left: 1.5rem;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -2rem;
+            top: 0.3rem;
+            width: 12px;
+            height: 12px;
+            background: var(--primary-color);
+            border-radius: 50%;
+            border: 3px solid var(--white);
+            box-shadow: 0 0 0 2px var(--primary-color);
+        }
+        
+        .timeline-date {
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 0.3rem;
+        }
+        
+        .timeline-title {
+            font-weight: 600;
+            color: var(--text-color);
+            margin-bottom: 0.5rem;
+        }
+        
+        .tools-veille {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .tool-veille {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.8rem 1.2rem;
+            background: var(--white);
+            border-radius: var(--border-radius);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        
+        .tool-veille i {
+            font-size: 1.2rem;
+            color: #6366F1;
+        }
+        
+        @media (max-width: 768px) {
+            .veille-hero h1 {
+                font-size: 2rem;
+            }
+        }
